@@ -97,6 +97,12 @@ list = { fg = "#CECDC3" } # tx
 btn_yes = { fg = "#CECDC3", bg = "#403E3C", bold = true } # tx, ui-3
 btn_no = { fg = "#878580", bg = "#282726" } # tx-2, ui
 
+[spot]
+border = { fg = "#403E3C" } # ui-3
+title = { fg = "#575653", bold = true } # tx-3
+tbl_col = { fg = "#878580" } # tx-2
+tbl_cell = { bg = "#1C1B1A" } # bg-2
+
 [notify]
 # Notification title
 title_info = { fg = "#4385BE" } # bl
