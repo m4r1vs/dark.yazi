@@ -80,6 +80,29 @@ progress_label = { fg = "#100F0F" } # bg
 progress_normal = { fg = "#3AA99F", bg = "#1C6C66" } # cy, cy-700
 progress_error = { bg = "#D14D41" } # re
 
+[which]
+cols = 3
+mask = { bg = "#1C1B1A" } # bg-2
+cand = { fg = "#D0A215", bold = true } # ye
+rest = { fg = "#D0A215", italic = true } # ye
+desc = { fg = "#575653" } # tx-3
+separator = " "
+separator_style = { }
+
+[confirm]
+border = { fg = "#403E3C" } # ui-3
+title = { fg = "#575653", bold = true } # tx-3
+content = { fg = "#CECDC3" } # tx
+list = { fg = "#CECDC3" } # tx
+btn_yes = { fg = "#CECDC3", bg = "#403E3C", bold = true } # tx, ui-3
+btn_no = { fg = "#878580", bg = "#282726" } # tx-2, ui
+
+[notify]
+# Notification title
+title_info = { fg = "#4385BE" } # bl
+title_warn = { fg = "#DA702C" } # or
+title_error = { fg = "#D14D41" } # re
+
 [pick]
 border = { fg = "#403E3C", bold = true } # ui-3
 active = { fg = "#CECDC3", bg = "#1C1B1A" } # tx, bg-2
@@ -101,27 +124,12 @@ border = { fg = "#403E3C" } # ui-3
 title = { fg = "#575653", bold = true } # tx-3
 hovered = { bg = "#1C1B1A" } # bg-2
 
-[which]
-cols = 3
-mask = { bg = "#1C1B1A" } # bg-2
-cand = { fg = "#D0A215", bold = true } # ye
-rest = { fg = "#D0A215", italic = true } # ye
-desc = { fg = "#575653" } # tx-3
-separator = " "
-separator_style = { }
-
 [help]
 on = { fg = "#4385BE" } # bl
 run = { fg = "#3AA99F" } # cy
 desc = { fg = "#575653", italic = true } # tx-3
 hovered = { bg = "#1C1B1A" } # bg-2
 footer = { fg = "#CECDC3", bg = "#282726", bold = true } # tx, ui
-
-[notify]
-# Notification title
-title_info = { fg = "#4385BE" } # bl
-title_warn = { fg = "#DA702C" } # or
-title_error = { fg = "#D14D41" } # re
 
 [filetype]
 rules = [
