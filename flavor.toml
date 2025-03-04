@@ -111,8 +111,8 @@ title_error = { fg = "#D14D41" } # re
 
 [pick]
 border = { fg = "#403E3C", bold = true } # ui-3
-active = { fg = "#CECDC3", bg = "#1C1B1A" } # tx, bg-2
-inactive = { fg = "#CECDC3" } # tx
+active = { fg = "#CECDC3" } # tx
+inactive = { fg = "#878580" } # tx-2
 
 [input]
 border = { fg = "#403E3C" } # ui-3
